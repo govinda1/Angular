@@ -1,56 +1,92 @@
 [
   {
-    "name":"Barot Bellingham",
-    "shortname":"Barot_Bellingham",
-    "reknown":"Royal Academy of Painting and Sculpture",
-    "bio":"Barot has just finished his final year at The Royal Academy of Painting and Sculpture, where he excelled in glass etching paintings and portraiture. Hailed as one of the most diverse artists of his generation, Barot is equally as skilled with watercolors as he is with oils, and is just as well-balanced in different subject areas. Barot's collection entitled \"The Un-Collection\" will adorn the walls of Gilbert Hall, depicting his range of skills and sensibilities - all of them, uniquely Barot, yet undeniably different"
+    "city":"Springfield, IL",
+    "weather":"Fair",
+    "temp":-1,
+    "feelslike":-14,
+    "wind": "7 mph",
+    "humidity":  "59%",
+    "pic":"Springfield_img",
+    "info": "Springfield is the capital of the U.S. state of Illinois and the county seat of Sangamon County with a population of 116,250, as of the 2010 U.S. Census, making it the sixth most populated city in the state"
   },
   {
-    "name":"Jonathan G. Ferrar II",
-    "shortname":"Jonathan_Ferrar",
-    "reknown":"Artist to Watch in 2012",
-    "bio":"The Artist to Watch in 2012 by the London Review, Johnathan has already sold one of the highest priced-commissions paid to an art student, ever on record. The piece, entitled Gratitude Resort, a work in oil and mixed media, was sold for $750,000 and Jonathan donated all the proceeds to Art for Peace, an organization that provides college art scholarships for creative children in developing nations"
+    "city":"Chicago, IL",
+    "weather":"Fair",
+    "temp":2,
+    "feelslike":-17,
+    "wind": "14 mph",
+    "humidity":  "46%",
+    "pic":"Chicago_img",
+    "info":"Chicago is the third most populous city in the United States, after New York City and Los Angeles. With 2.7 million residents, it is the most populous city in both the U.S. state of Illinois and the American Midwest."
   },
   {
-    "name":"Hillary Hewitt Goldwynn-Post",
-    "shortname":"Hillary_Goldwynn",
-    "reknown":"New York University",
-    "bio":"Hillary is a sophomore art sculpture student at New York University, and has already won all the major international prizes for new sculptors, including the Divinity Circle, the International Sculptor's Medal, and the Academy of Paris Award. Hillary's CAC exhibit features 25 abstract watercolor paintings that contain only water images including waves, deep sea, and river."
+    "city":"Detroit, MI",
+    "weather":"Fair",
+    "temp":7,
+    "feelslike":-9,
+    "wind": "12 mph",
+    "humidity":  "50%",
+    "pic":"Detroit_img",
+    "info": "Detroit is the most populous city in the U.S. state of Michigan and the largest city on the United States–Canada border. It is a primary business, cultural, financial and transportation center in the Metro Detroit area, a region of 5.2 million people."
   },
   {
-    "name":"Hassum Harrod",
-    "shortname":"Hassum_Harrod",
-    "reknown":"Art College in New Dehli",
-    "bio":"The Art College in New Dehli has sponsored Hassum on scholarship for his entire undergraduate career at the university, seeing great promise in his contemporary paintings of landscapes - that use equal parts muted and vibrant tones, and are almost a contradiction in art. Hassum will be speaking on \"The use and absence of color in modern art\" during Thursday's agenda."
+    "city":"Dallas, TX",
+    "weather":"Partly Cloudy",
+    "temp":29,
+    "feelslike":16,
+    "wind": "19 mph",
+    "humidity":  "24%",
+    "pic":"Dallas_img",
+    "info": "Dallas is a major city in Texas and is the largest urban center of the fourth most populous metropolitan area in the United States. The city proper ranks ninth in the U.S. and third in Texas after Houston and San Antonio."
   },
   {
-    "name":"Jennifer Jerome",
-    "shortname":"Jennifer_Jerome",
-    "reknown":"New Orleans, LA",
-    "bio":"A native of New Orleans, much of Jennifer's work has centered around abstract images that depict flooding and rebuilding, having grown up as a teenager in the post-flood years. Despite the sadness of devastation and lives lost, Jennifer's work also depicts the hope and togetherness of a community that has persevered. Jennifer's exhibit will be discussed during Tuesday's Water in Art theme."
+    "city":"San Francisco, CA",
+    "weather":"Partly Cloudy",
+    "temp":60,
+    "feelslike":60,
+    "wind": "6 mph",
+    "humidity":  "60%",
+    "pic":"San_Francisco_img",
+    "info": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial and financial center of Northern California."
   },
   {
-    "name":"LaVonne L. LaRue",
-    "shortname":"LaVonne_LaRue",
-    "reknown":"Chicago, IL",
-    "bio":"LaVonne's giant-sized paintings all around Chicago tell the story of love, nature, and conservation - themes that are central to her heart. LaVonne will share her love and skill of graffiti art on Monday's schedule, as she starts the painting of a 20-foot high wall in the Rousseau Room of Hotel Contempo in front of a standing-room only audience in Art in Unexpected Places."
+    "city":"Belmont, CA",
+    "weather":"Fair",
+    "temp":55,
+    "feelslike":55,
+    "wind": "6 mph",
+    "humidity":  "80%",
+    "pic":"Belmont_img",
+    "info": "Belmont is an affluent city in San Mateo County, California, United States. It is in the San Francisco Bay Area, located halfway down the San Francisco Peninsula between San Mateo and San Carlos."
   },
   {
-    "name":"Constance Olivia Smith",
-    "shortname":"Constance_Smith",
-    "reknown":"Fullerton-Brighton-Norwell Award",
-    "bio":"Constance received the Fullerton-Brighton-Norwell Award for Modern Art for her mixed-media image of a tree of life, with jewel-adorned branches depicting the arms of humanity, and precious gemstone-decorated leaves representing the spouting buds of togetherness. The daughter of a New York jeweler, Constance has been salvaging the discarded remnants of her father's jewelry-making since she was five years old, and won the New York State Fair grand prize at the age of 8 years old for a gem-adorned painting of the Manhattan Bridge."
+    "city":"New York City, NY",
+    "weather":"Clear",
+    "temp":16,
+    "feelslike":8,
+    "wind": "5 mph",
+    "humidity":  "41%",
+    "pic":"New_York_img",
+    "info" : "New York – referred to as New York City or the City of New York to distinguish it from the State of New York, of which it is a part – is the most populous city in the United States and the center of the New York metropolitan area, the premier gateway for legal immigration to the United States."
   },
   {
-    "name":"Riley Rudolph Rewington",
-    "shortname":"Riley_Rewington",
-    "reknown":"Roux Academy of Art, Media, and Design",
-    "bio":"A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley's exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind's eye. Riley will be speaking on the \"Art of Abstract\" during Thursday's schedule"
+    "city":"Boston, MA",
+    "weather":"Fair/Windy",
+    "temp":10,
+    "feelslike":-10,
+    "wind": "23 mph",
+    "humidity":  "36%",
+    "pic":"Boston_img",
+    "info" : "Boston is the capital and largest city of the Commonwealth of Massachusetts in the United States. Boston also serves as county seat of Suffolk County. It is the largest city in New England."
   },
   {
-    "name":"Xhou Ta",
-    "shortname":"Xhou_Ta",
-    "reknown":"China International Art University",
-    "bio":"A senior at the China International Art University, Xhou has become well-known for his miniature sculptures, often the size of a rice granule, that are displayed by rear projection of microscope images on canvas. Xhou will discuss the art and science behind his incredibly detailed works of art."
+    "city":"Los Angeles, CA",
+    "weather":"Fair",
+    "temp":68,
+    "feelslike":68,
+    "wind": "4 mph",
+    "humidity":  "31%",
+    "pic":"Los_Angeles_img",
+    "info" : "Los Angeles, officially the 'City of Los Angeles', often known by its initials L.A., is the most populous city in the U.S. state of California and the second-most populous in the United States, after New York City."
   }
 ]

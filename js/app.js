@@ -1,6 +1,6 @@
 var myApp = angular.module('myApp', [
   'ngRoute',
-  'artistControllers'
+  'cityControllers'
 ]);
 
 myApp.config(['$routeProvider', function($routeProvider) {

@@ -1,34 +1,94 @@
-<section class="artistpage">
-  <div class="search">
-    <h1>Artist Directory</h1>
-    <label>search: </label>
-    <input ng-model="query" placeholder="Search for artists" autofocus>
+<div class="row">
+    <div class="col-md-6" >
+      <section class="artistpage"> 
+         <div class = "regform">
+          <h1><u> Govinda Dhirde Portfolio </u> </h1>
+          <table>
+          <tr>
+              <tr>
+                <td>
+                  Project 1 -<a href='http://www.uis.edu/' target="_blank"> University Web Portal </a> 
+                </td> 
+              </tr> 
+              <tr>
+                <td>
+                  Description - UIS web portal is used by 8000 university students and more than 2500 faculty and staff members. The Home page links to several department websites and enterprise applications. It is one stop information center for future students. 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Project 2 -<a href='http://jmwais.org/' target="_blank"> JMWAIS Web portal</a> 
+                </td>
+              </tr> 
+              <tr>
+                <td>
+                  Description - Journal of the Midwest Association for Information Systems is an open access online journal website developed for IS scholars to submit technical papers in the field of information systems. 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Project 3 -<a href='http://www.synygy.com/' target="_blank"> Synygy Web portal</a> 
+                </td>   
+              </tr> 
+              <tr>
+                <td>
+                  Description - Synygy web portal is a marketing website to provide product information and company updates related to sales incentive management.  
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Project 4 -<a href='https://quickserve.cummins.com/info/index.html' target="_blank"> Cummins Web Portal</a> 
+                </td>  
+              </tr> 
+              <tr>
+                <td>
+                  Description - Cummins Inc. is a Fortune 500 corporation that designs, manufactures, and distributes engines, filtration, and power generation products. The web portal is used by internal and external customers to place orders and service requests. 
+                </td>
+              </tr>
+                          
+          </table>    
+       </div>
+      </section>
+    </div>  
+  
+  <div class="col-md-6">
+    
+    <section class="artistpage">
+      <div class="search">
+        <h1>Weather Report</h1>
+        <label>search: </label>
+        <input ng-model="query" placeholder="Search for cities" autofocus>
+        <label class="formgroup">by:
+          <select ng-model="cityOrder">
+            <option value="city">City</option>
+            <option value="temp">Tempreture</option>
+          </select>
+        </label>
 
-    <label class="formgroup">by:
-      <select ng-model="artistOrder">
-        <option value="name">Name</option>
-        <option value="reknown">Reknown</option>
-      </select>
-    </label>
-
-    <label class="formgroup">
-      <input type="radio" ng-model="direction" name="direction" checked>
-      ascending
-     </label>
-    <label class="formgroup">
-      <input type="radio" ng-model="direction" name="direction" value="reverse">
-      descending
-    </label>
-   
-  </div>
-  <ul class="artistlist">
-    <li class="artist cf" ng-repeat="item in artists | filter: query | orderBy: artistOrder:direction">
-    <a href="#/details/{{artists.indexOf(item)}}">
-      <img ng-src="images/{{item.shortname}}_tn.jpg" alt="Photo of {{item.name}}">
-      <div class="info">
-        <h2>{{item.name}}</h2>
-        <h3>{{item.reknown}}</h3></a>	
+        <label class="formgroup">
+          <input type="radio" ng-model="direction" name="direction" checked>
+            ascending
+        </label>
+        <label class="formgroup">
+          <input type="radio" ng-model="direction" name="direction" value="reverse">
+            descending
+        </label>
       </div>
-    </li>
-  </ul>  
-</section>
+      <ul class="artistlist">
+        <li class="artist cf" ng-repeat="item in cities | filter: query | orderBy: cityOrder:direction">
+          <a href="#/details/{{cities.indexOf(item)}}">
+            <img ng-src="images/{{item.pic}}.jpg" alt="Photo of {{item.city}}">
+            <div class="info">
+              <h2>{{item.city}}</h2>
+              <h3>Tempreture: {{item.temp}} F</h3>
+              <h3>Feel's Like: {{item.feelslike}} F</h3>
+              <h3>Climate: {{item.weather}}</h3>
+              <h3>Wind: {{item.wind}}</h3>
+              <h3>Humidity: {{item.humidity}}</h3>
+            </div> 
+          </a>  
+        </li>
+      </ul>  
+    </section>
+  </div>
+</div>
