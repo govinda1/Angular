@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Gallery</title>
 </head>
-<body style="padding: 0; margin: 0; background-color: #023E54;">
+<body>
     <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="../js/jssor.js"></script>
     <script type="text/javascript" src="../js/jssor.slider.js"></script>
@@ -348,6 +348,14 @@
         <div u="thumbnavigator" class="jssort01" style="position: absolute; width: 600px; height: 100px; left:0px; bottom: 0px;">
             <!-- Thumbnail Item Skin Begin -->
             <style>
+                html { 
+                        background: url(../images/black_background.jpg) no-repeat center center fixed; 
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
+
                 /* jssor slider thumbnail navigator skin 01 css */
                 /*
                 .jssort01 .p           (normal)
